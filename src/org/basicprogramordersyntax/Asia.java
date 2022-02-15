@@ -10,6 +10,10 @@ private void india() { //method name
 	
 	System.out.println("india is 2nd populated");
 }
+
+private void pakisthan() {
+	System.out.println("pakisthan is nearby india");
+}
 public static void main(String[] args) { // main method
 	
 // syntax here is : classname objectname = new classname();
@@ -20,6 +24,7 @@ public static void main(String[] args) { // main method
 	
 	a.china(); //object
 	a.india(); //object
+	a.pakisthan();
 }
 }
 
